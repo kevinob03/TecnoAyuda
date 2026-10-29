@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-29T16:45:00.000Z" agent="TecnoAyuda ER (editable)" version="24.7.17" type="device">
+  <diagram id="tecnoayuda-er" name="Modelo ER - TecnoAyuda">
+    <mxGraphModel dx="1800" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2540" pageHeight="2240" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="TecnoAyuda  |  Modelo entidad–relación (15 tablas)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=29;fontStyle=1;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="75" y="27" width="1890" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="PK = llave primaria      FK = llave foránea      Pata de cuervo = muchos      Círculo = relación opcional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="76" y="78" width="2060" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="col_Catalogos" value="CATALOGOS" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#334155;strokeColor=#334155;fontColor=#FFFFFF;fontFamily=Arial;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="120" width="362" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="col_Marketing" value="MARKETING" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#0E7490;strokeColor=#0E7490;fontColor=#FFFFFF;fontFamily=Arial;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="120" width="362" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="col_Contenido" value="CONTENIDO" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#6D28D9;strokeColor=#6D28D9;fontColor=#FFFFFF;fontFamily=Arial;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="120" width="362" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="col_Clientes" value="CLIENTES" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#047857;strokeColor=#047857;fontColor=#FFFFFF;fontFamily=Arial;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="120" width="362" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="col_Ventas" value="VENTAS" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#B45309;strokeColor=#B45309;fontColor=#FFFFFF;fontFamily=Arial;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2075" y="120" width="362" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_empleados" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="170" width="362" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_empleados" value="EMPLEADOS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#334155;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_empleados" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_empleados_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_empleado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F1F5F9;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_empleados" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_empleados_1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nombre" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_empleados" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_empleados_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;correo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_empleados" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_empleados_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rol" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_empleados" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_servicios" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="765" width="362" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_servicios" value="SERVICIOS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#334155;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_servicios" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_servicios_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_servicio" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F1F5F9;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_servicios" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_servicios_1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nombre" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_servicios" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_servicios_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;descripcion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_servicios" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_servicios_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;precio_base" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_servicios" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_canales" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1350" width="362" height="124" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_canales" value="CANALES" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#334155;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_canales" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_canales_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_canal" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F1F5F9;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_canales" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_canales_1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nombre" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_canales" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_canales_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tipo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_canales" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_campanas" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0E7490;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="170" width="362" height="228" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_campanas" value="CAMPAÑAS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#0E7490;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_campana" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFEFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nombre" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;objetivo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;etapa_recorrido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_inicio" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_fin" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_campanas_6" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;presupuesto_total" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_campanas" connectable="0">
+          <mxGeometry x="4" y="194" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_asignaciones" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0E7490;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="610" width="362" height="176" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_asignaciones" value="ASIGNACIONES_PRESUPUESTO" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#0E7490;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_asignaciones" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_asignaciones_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_asignacion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFEFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_asignaciones" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_asignaciones_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_campana" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_asignaciones" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_asignaciones_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_canal" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_asignaciones" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_asignaciones_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;monto_asignado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_asignaciones" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_asignaciones_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;criterio" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_asignaciones" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_contenidos" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D28D9;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="170" width="362" height="306" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_contenidos" value="CONTENIDOS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#6D28D9;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contenido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F5F3FF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_campana" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_canal" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_3" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_autor" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;titulo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tipo_contenido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_6" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;etapa_recorrido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="194" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_7" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_programada" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="220" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_8" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_publicacion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="246" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contenidos_9" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;estado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contenidos" connectable="0">
+          <mxGeometry x="4" y="272" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_revisiones" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D28D9;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="775" width="362" height="202" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_revisiones" value="REVISIONES_CONTENIDO" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#6D28D9;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_revisiones_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_revision" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F5F3FF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_revisiones_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contenido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_revisiones_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_revisor" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_revisiones_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_revision" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_revisiones_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;decision" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_revisiones_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;comentario" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_revisiones" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_contactos" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#047857;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="170" width="362" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_contactos" value="CONTACTOS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#047857;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contacto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFDF5;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nombre" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;empresa" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;correo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;telefono" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_registro" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_6" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;etapa_recorrido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="194" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_7" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_campana_origen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="220" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contactos_8" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_canal_origen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contactos" connectable="0">
+          <mxGeometry x="4" y="246" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_historial" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#047857;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="775" width="362" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_historial" value="HISTORIAL_EMBUDO" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#047857;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_historial" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_historial_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_movimiento" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFDF5;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_historial" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_historial_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contacto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_historial" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_historial_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;etapa_embudo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_historial" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_historial_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_movimiento" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_historial" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_interacciones" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D28D9;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="1380" width="362" height="176" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_interacciones" value="INTERACCIONES_CONTENIDO" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#6D28D9;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_interacciones" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_interacciones_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_interaccion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F5F3FF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_interacciones" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_interacciones_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contacto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_interacciones" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_interacciones_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contenido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_interacciones" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_interacciones_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tipo_interaccion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_interacciones" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_interacciones_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_interaccion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_interacciones" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_traspasos" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#047857;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="1270" width="362" height="384" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_traspasos" value="TRASPASOS_VENTAS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#047857;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_traspaso" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFDF5;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contacto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_entrega" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_3" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_recibe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_traspaso" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;puntuacion" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_6" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;necesidad" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="194" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_7" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;presupuesto_declarado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="220" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_8" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;resumen_contenidos" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="246" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_9" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notas" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="272" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_10" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;estado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="298" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_11" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_respuesta" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="324" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_traspasos_12" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;motivo_rechazo" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_traspasos" connectable="0">
+          <mxGeometry x="4" y="350" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_oportunidades" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B45309;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2075" y="705" width="362" height="228" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_oportunidades" value="OPORTUNIDADES_VENTA" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#B45309;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_oportunidad" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFBEB;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contacto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_servicio" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_3" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_vendedor" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_propuesta" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;monto_estimado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_oportunidades_6" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;estado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_oportunidades" connectable="0">
+          <mxGeometry x="4" y="194" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_contratos" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B45309;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2075" y="1430" width="362" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_contratos" value="CONTRATOS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#B45309;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_contratos" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contratos_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contrato" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFBEB;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contratos" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contratos_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_oportunidad" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contratos" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contratos_2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_firma" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contratos" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_contratos_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;monto_final" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_contratos" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_gastos" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0E7490;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1170" width="362" height="202" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_gastos" value="GASTOS" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#0E7490;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_gastos_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_gasto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFEFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_gastos_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_campana" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_gastos_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_canal" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_gastos_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;categoria_gasto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_gastos_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;monto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_gastos_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha_gasto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_gastos" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="tbl_resultados" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0E7490;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1670" width="362" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_resultados" value="RESULTADOS_CAMPANA" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=15;fillColor=#0E7490;strokeColor=none;fontColor=#FFFFFF;fontFamily=Arial;fontSize=15;fontStyle=1;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="0" y="0" width="362" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_0" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_resultado" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#ECFEFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="38" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_1" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_campana" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="64" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_2" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_canal" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="90" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_3" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fecha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="116" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_4" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;impresiones" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="142" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_5" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;clics" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="168" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_6" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;me_gusta" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="194" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_7" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;visualizaciones" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#FFFFFF;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="220" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="field_resultados_8" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;seguidores_nuevos" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=15;whiteSpace=wrap;overflow=hidden;fillColor=#F8FAFC;strokeColor=none;fontFamily=Arial;fontSize=13;fontColor=#1E293B;" vertex="1" parent="tbl_resultados" connectable="0">
+          <mxGeometry x="4" y="246" width="354" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_1" value="1:N  id_autor" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94A3B8;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_empleados" target="tbl_contenidos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_2" value="1:N  id_revisor" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94A3B8;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_empleados" target="tbl_revisiones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_3" value="1:N  id_entrega" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94A3B8;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_empleados" target="tbl_traspasos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_4" value="1:N  id_recibe" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94A3B8;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_empleados" target="tbl_traspasos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_5" value="1:N  id_vendedor" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94A3B8;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_empleados" target="tbl_oportunidades">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_6" value="1:N  id_servicio" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_servicios" target="tbl_oportunidades">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_7" value="1:N  id_canal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_canales" target="tbl_asignaciones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_8" value="1:N  id_canal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_canales" target="tbl_contenidos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_9" value="0:N  id_canal_origen" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#059669;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERzeroToMany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_canales" target="tbl_contactos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_10" value="0:N  id_canal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERzeroToMany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_canales" target="tbl_gastos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_11" value="1:N  id_canal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_canales" target="tbl_resultados">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_12" value="1:N  id_campana" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_campanas" target="tbl_asignaciones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_13" value="1:N  id_campana" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_campanas" target="tbl_contenidos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_14" value="0:N  id_campana_origen" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#059669;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERzeroToMany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_campanas" target="tbl_contactos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_15" value="0:N  id_campana" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERzeroToMany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_campanas" target="tbl_gastos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_16" value="1:N  id_campana" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0891B2;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_campanas" target="tbl_resultados">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_17" value="1:N  id_contenido" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#8B5CF6;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_contenidos" target="tbl_revisiones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_18" value="1:N  id_contenido" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#8B5CF6;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_contenidos" target="tbl_interacciones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_19" value="1:N  id_contacto" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#059669;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_contactos" target="tbl_historial">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_20" value="1:N  id_contacto" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#059669;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_contactos" target="tbl_interacciones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_21" value="1:N  id_contacto" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#059669;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_contactos" target="tbl_traspasos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_22" value="1:N  id_contacto" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#059669;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERmany;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_contactos" target="tbl_oportunidades">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_23" value="0:1  id_oportunidad" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;opacity=80;startArrow=ERone;startFill=0;startSize=16;endArrow=ERone;endFill=0;endSize=18;fontFamily=Arial;fontSize=10;fontColor=#334155;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="tbl_oportunidades" target="tbl_contratos">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
