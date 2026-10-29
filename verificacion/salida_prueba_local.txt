@@ -1,0 +1,17 @@
+VALIDACIÓN LOCAL / COMPATIBILIDAD CON SQLITE (NO ES MYSQL)
+Tablas: 15
+Referencias foráneas inválidas: 0
+Mínimos de datos: 15/15 tablas correctas
+Inconsistencias adicionales: 0
+Consulta 1: 2 fila(s); columnas = canal, gasto_crc, clics, cpc_crc
+Consulta 2: 3 fila(s); columnas = canal, tipo, impresiones, clics, ctr_porcentaje
+Consulta 3: 1 fila(s); columnas = cac_crc, clientes_nuevos, inversion_total_crc
+Consulta 4: 10 fila(s); columnas = campana, pauta_crc, ingresos_crc, roas
+Consulta 5: 3 fila(s); columnas = conversion, inicio, final, porcentaje
+Consulta 6: 1 fila(s); columnas = contratos_firmados, ciclo_promedio_dias, minimo_dias, maximo_dias
+Consulta 7: 1 fila(s); columnas = contratos, ingresos_totales_crc, ticket_promedio_crc
+Consulta 8: 10 fila(s); columnas = campana, me_gusta, visualizaciones, seguidores_nuevos, leads, contratos, ingresos_crc, conversion_lead_a_contrato_pct
+Gasto total CRC: 1212000
+Ingresos CRC: 1750000
+Contratos: 10
+RESULTADO: PRUEBAS LOCALES APROBADAS. FALTA EJECUTAR EN MYSQL WORKBENCH.

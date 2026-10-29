@@ -1,36 +1,74 @@
 # TecnoAyuda — Business Solutions
 
-Proyecto académico ficticio de mercadeo comercial para una empresa de soporte técnico.
+Proyecto académico ficticio: **Primer Postejercicio de Business Solutions**, sobre mercadeo comercial en una empresa de servicios de soporte técnico.
 
-**Estudiante:** Kevin Ortiz Bolaños  
-**Programa:** Full Stack — Forward Costa Rica  
-**Módulo:** Business Solutions  
-**Profesor:** Steven Salas Ledezma  
-**Fecha:** 29 de octubre de 2026
+## Entregables del profesor
 
-## Estado de publicación
+| Entregable | Ubicación | Estado |
+|---|---|---|
+| Documento PDF con la Parte A, la Parte B y los diagramas | [`documentacion/TecnoAyuda_Informe_Final.pdf`](documentacion/TecnoAyuda_Informe_Final.pdf) | Preparado; portada sin datos personales |
+| Código SQL, datos ficticios y consultas | [`sql/TecnoAyuda_Completo.sql`](sql/TecnoAyuda_Completo.sql) | Preparado; falta ejecución en servidor MySQL |
+| Capturas reales de ejecución y consultas | [`evidencias/`](evidencias/) | **Pendientes** |
 
-En este repositorio están publicados y verificados:
-- [Script SQL completo](sql/TecnoAyuda_Completo.sql), que crea la base `tecnoayuda_entrega`, sus 15 tablas, datos ficticios y consultas.
-- [Diagrama entidad-relación editable](diagramas/TecnoAyuda_Diagrama_ER.drawio).
-- [Embudo de ventas editable](diagramas/TecnoAyuda_Embudo_Ventas.drawio).
-- [Arquitectura de agentes editable](diagramas/TecnoAyuda_Arquitectura_Agentes.drawio).
+El documento Word en `documentacion/` es una copia editable del informe. En `diagramas/` se encuentran las fuentes editables y las imágenes de referencia.
 
-**Pendiente de subir:** informe actualizado en PDF y DOCX, imágenes PNG de los diagramas, capturas de pantalla reales de MySQL y documentos auxiliares de validación. Estos archivos están preparados en el paquete descargable de ChatGPT, pero no forman parte todavía del repositorio. No se deben presentar como publicados.
+## Organización
 
-## Uso en MySQL Workbench
+```text
+tecnoayuda_github/
+├── README.md
+├── .gitignore
+├── documentacion/
+│   ├── TecnoAyuda_Informe_Final.pdf
+│   └── TecnoAyuda_Informe_Final.docx
+├── sql/
+│   ├── TecnoAyuda_Completo.sql
+│   └── TecnoAyuda_Verificacion_Workbench.sql
+├── diagramas/
+│   ├── TecnoAyuda_Diagrama_ER.drawio
+│   ├── TecnoAyuda_ER_final.png
+│   ├── TecnoAyuda_Embudo_Ventas.drawio
+│   ├── TecnoAyuda_Embudo_Ventas.png
+│   ├── TecnoAyuda_Arquitectura_Agentes.drawio
+│   └── TecnoAyuda_Arquitectura_Agentes.png
+├── verificacion/
+│   ├── verificar_local.py
+│   └── REPORTE_VALIDACION_LOCAL.md
+└── evidencias/
+    └── README.md
+```
 
-1. Abrir `sql/TecnoAyuda_Completo.sql` mediante *File > Open SQL Script*.
-2. Ejecutar el script completo en MySQL Server 8.0.16 o posterior.
-3. Actualizar *SCHEMAS* y comprobar que `tecnoayuda_entrega` tenga 15 tablas.
-4. Revisar el resultado de las consultas finales y guardar las capturas auténticas.
+## Cómo ejecutar en MySQL Workbench
 
-**Cuidado:** al ejecutarse de nuevo, el script elimina y recrea la base `tecnoayuda_entrega`. No lo ejecutes si deseas conservar datos de esa base.
+1. Conectarse a un servidor **MySQL 8.0.16 o posterior**.
+2. Abrir `sql/TecnoAyuda_Completo.sql` con **File → Open SQL Script**.
+3. Ejecutar el script completo y actualizar **SCHEMAS**.
+4. Verificar que exista `tecnoayuda_entrega` con **15 tablas**.
+5. Abrir y ejecutar `sql/TecnoAyuda_Verificacion_Workbench.sql` (solo lectura).
+6. Ejecutar las ocho consultas de métricas al final del SQL principal y guardar las capturas siguiendo `evidencias/README.md`.
 
-## Alcance
+**Advertencia:** el archivo principal empieza con `DROP DATABASE IF EXISTS tecnoayuda_entrega`. Esto elimina y reconstruye únicamente esa base de datos; **no** ejecutarlo si contiene información que se deba conservar. No elimina la base separada `tecnoayuda`.
 
-La Parte A aborda campañas, canales, contenidos, aprobaciones, contactos, embudo de ventas, traspasos, oportunidades, contratos y métricas CPC, CTR, CAC, ROAS, conversión, ciclo de venta y ticket promedio. La Parte B describe un agente orquestador y seis agentes especializados de manera conceptual; **no se implementaron agentes operativos**.
+## Métricas incluidas
 
-## Evidencias y límites de validación
+CPC, CTR, CAC, ROAS, conversión de lead a prospecto, prospecto a oportunidad y oportunidad a cierre, ciclo de venta, ticket promedio y comparación de métricas de vanidad con métricas de negocio.
 
-Se dispone de dos capturas reales proporcionadas por el estudiante: una consulta de presupuestos con 10 filas y una consulta que confirmó 15 tablas en MySQL Workbench. Eso no demuestra por sí solo que todas las consultas funcionen; el resto de verificaciones debe documentarse antes de afirmar que la ejecución fue integral.
+## Agentes de inteligencia artificial
+
+El informe **documenta** un agente orquestador y seis agentes especializados, sus permisos, tablas y flujos de trabajo. No existen agentes operativos ni integraciones externas implementadas en esta primera entrega.
+
+## Verificación transparente
+
+Las pruebas locales se realizaron utilizando **SQLite como motor de compatibilidad**, no un servidor MySQL. Ver el [reporte reproducible](verificacion/REPORTE_VALIDACION_LOCAL.md). Las capturas genuinas de Workbench siguen pendientes, y no deben reemplazarse por resultados simulados.
+
+## Antes de la entrega final
+
+Completar los datos del estudiante, carné y docente en la portada del PDF/Word; ejecutar en MySQL y añadir capturas auténticas. Los ejemplos y valores son ficticios, creados solo con fines académicos.
+
+
+## Estado de entrega (29 de octubre de 2026)
+
+- Informe con portada: Kevin Ortiz Bolaños, Forward Costa Rica, programa Full Stack, módulo Business Solutions, profesor Steven Salas Ledezma. No aplica carné.
+- Evidencias: dos capturas reales (`evidencias/evidencia_1_mysql.png`, `evidencias/evidencia_2_mysql.png`).
+- Se confirmó visualmente que `tecnoayuda_entrega` contiene 15 tablas y que una consulta devuelve 10 filas. Aún no se aportan capturas de cada una de las métricas.
+- No se ha publicado este proyecto en GitHub.
