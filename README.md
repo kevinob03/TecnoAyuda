@@ -1,74 +1,55 @@
 # TecnoAyuda — Business Solutions
 
-Proyecto académico ficticio: **Primer Postejercicio de Business Solutions**, sobre mercadeo comercial en una empresa de servicios de soporte técnico.
+Proyecto académico ficticio de mercadeo comercial para una empresa de servicios de soporte técnico.
 
-## Entregables del profesor
+**Estudiante:** Kevin Ortiz Bolaños  
+**Institución:** Forward Costa Rica  
+**Programa:** Full Stack  
+**Módulo:** Business Solutions  
+**Profesor:** Steven Salas Ledezma  
+**Fecha del ejercicio:** 29 de octubre de 2026  
+**Carné:** No aplica.
 
-| Entregable | Ubicación | Estado |
-|---|---|---|
-| Documento PDF con la Parte A, la Parte B y los diagramas | [`documentacion/TecnoAyuda_Informe_Final.pdf`](documentacion/TecnoAyuda_Informe_Final.pdf) | Preparado; portada sin datos personales |
-| Código SQL, datos ficticios y consultas | [`sql/TecnoAyuda_Completo.sql`](sql/TecnoAyuda_Completo.sql) | Preparado; falta ejecución en servidor MySQL |
-| Capturas reales de ejecución y consultas | [`evidencias/`](evidencias/) | **Pendientes** |
+## Entregables
 
-El documento Word en `documentacion/` es una copia editable del informe. En `diagramas/` se encuentran las fuentes editables y las imágenes de referencia.
+| Entregable | Archivo |
+|---|---|
+| Informe completo de la Parte A y Parte B (PDF, con portada y diagramas) | [Informe PDF](documentacion/TecnoAyuda_Informe_Final.pdf) |
+| Informe editable | [Informe Word](documentacion/TecnoAyuda_Informe_Final.docx) |
+| Creación de base de datos, 15 tablas, datos ficticios y consultas SQL | [Script principal](sql/TecnoAyuda_Completo.sql) |
+| Consultas adicionales de verificación | [Verificación Workbench](sql/TecnoAyuda_Verificacion_Workbench.sql) |
+| Diagrama entidad-relación (editable) | [Diagrama ER](diagramas/TecnoAyuda_Diagrama_ER.drawio) |
+| Embudo de ventas (editable) | [Embudo](diagramas/TecnoAyuda_Embudo_Ventas.drawio) |
+| Diagrama del agente orquestador y agentes especialistas (editable) | [Arquitectura](diagramas/TecnoAyuda_Arquitectura_Agentes.drawio) |
+| Captura real de una consulta de presupuestos | [Evidencia 1](evidencias/evidencia_1_mysql.png) |
+| Captura real con resultado de 15 tablas | [Evidencia 2](evidencias/evidencia_2_mysql.png) |
+| Validación local, con limitaciones documentadas | [Reporte](verificacion/REPORTE_VALIDACION_LOCAL.md) |
 
-## Organización
-
-```text
-tecnoayuda_github/
-├── README.md
-├── .gitignore
-├── documentacion/
-│   ├── TecnoAyuda_Informe_Final.pdf
-│   └── TecnoAyuda_Informe_Final.docx
-├── sql/
-│   ├── TecnoAyuda_Completo.sql
-│   └── TecnoAyuda_Verificacion_Workbench.sql
-├── diagramas/
-│   ├── TecnoAyuda_Diagrama_ER.drawio
-│   ├── TecnoAyuda_ER_final.png
-│   ├── TecnoAyuda_Embudo_Ventas.drawio
-│   ├── TecnoAyuda_Embudo_Ventas.png
-│   ├── TecnoAyuda_Arquitectura_Agentes.drawio
-│   └── TecnoAyuda_Arquitectura_Agentes.png
-├── verificacion/
-│   ├── verificar_local.py
-│   └── REPORTE_VALIDACION_LOCAL.md
-└── evidencias/
-    └── README.md
-```
+También hay versiones PNG de los diagramas en `diagramas/` y un programa de comprobación local en `verificacion/`.
 
 ## Cómo ejecutar en MySQL Workbench
 
-1. Conectarse a un servidor **MySQL 8.0.16 o posterior**.
-2. Abrir `sql/TecnoAyuda_Completo.sql` con **File → Open SQL Script**.
-3. Ejecutar el script completo y actualizar **SCHEMAS**.
-4. Verificar que exista `tecnoayuda_entrega` con **15 tablas**.
-5. Abrir y ejecutar `sql/TecnoAyuda_Verificacion_Workbench.sql` (solo lectura).
-6. Ejecutar las ocho consultas de métricas al final del SQL principal y guardar las capturas siguiendo `evidencias/README.md`.
+1. Conéctate a MySQL Server 8.0.16 o posterior.
+2. Abre `sql/TecnoAyuda_Completo.sql` usando **File → Open SQL Script**.
+3. Ejecuta todo el archivo.
+4. Actualiza **SCHEMAS** y busca `tecnoayuda_entrega`.
+5. Comprueba las 15 tablas y ejecuta las consultas de métricas.
+6. Opcionalmente, ejecuta `sql/TecnoAyuda_Verificacion_Workbench.sql` para comprobaciones complementarias de solo lectura.
 
-**Advertencia:** el archivo principal empieza con `DROP DATABASE IF EXISTS tecnoayuda_entrega`. Esto elimina y reconstruye únicamente esa base de datos; **no** ejecutarlo si contiene información que se deba conservar. No elimina la base separada `tecnoayuda`.
+**Precaución:** el script principal elimina y vuelve a crear `tecnoayuda_entrega` al ejecutarse; no debe utilizarse si esa base contiene datos que deseas conservar.
 
-## Métricas incluidas
+## Temas cubiertos
 
-CPC, CTR, CAC, ROAS, conversión de lead a prospecto, prospecto a oportunidad y oportunidad a cierre, ciclo de venta, ticket promedio y comparación de métricas de vanidad con métricas de negocio.
+**Parte A:** empresa y proceso comercial, recorrido y embudo de ventas, campañas, canales pagados y orgánicos, presupuesto, contenido con revisiones, traspaso a ventas, oportunidades, contratos, tablas relacionales, datos ficticios y métricas CPC, CTR, CAC, ROAS, conversiones, ciclo de venta y ticket promedio.
 
-## Agentes de inteligencia artificial
+**Parte B:** propuesta conceptual de un agente orquestador y seis agentes especializados, con fichas, permisos, arquitectura y ejemplo de flujo. **No son agentes ejecutables implementados**.
 
-El informe **documenta** un agente orquestador y seis agentes especializados, sus permisos, tablas y flujos de trabajo. No existen agentes operativos ni integraciones externas implementadas en esta primera entrega.
+## Estado de verificación y evidencias
 
-## Verificación transparente
+- Hay una captura real de MySQL Workbench donde una consulta de campañas devuelve 10 registros.
+- Hay otra captura real que confirma **15 tablas** en la base `tecnoayuda_entrega`.
+- El informe publicado tiene portada con los datos académicos indicados y las evidencias anteriores.
+- Las pruebas adicionales locales de integridad y métricas están documentadas en `verificacion/`. Esas pruebas locales **no sustituyen una ejecución en MySQL Server**.
+- **Pendiente académico:** añadir capturas reales de los resultados de las otras consultas SQL (CPC, CTR, CAC, ROAS, tasas de conversión, ciclo de venta, ticket promedio y comparación de métricas de vanidad con métricas de negocio) para reforzar la evidencia de ejecución que pide el enunciado.
 
-Las pruebas locales se realizaron utilizando **SQLite como motor de compatibilidad**, no un servidor MySQL. Ver el [reporte reproducible](verificacion/REPORTE_VALIDACION_LOCAL.md). Las capturas genuinas de Workbench siguen pendientes, y no deben reemplazarse por resultados simulados.
-
-## Antes de la entrega final
-
-Completar los datos del estudiante, carné y docente en la portada del PDF/Word; ejecutar en MySQL y añadir capturas auténticas. Los ejemplos y valores son ficticios, creados solo con fines académicos.
-
-
-## Estado de entrega (29 de octubre de 2026)
-
-- Informe con portada: Kevin Ortiz Bolaños, Forward Costa Rica, programa Full Stack, módulo Business Solutions, profesor Steven Salas Ledezma. No aplica carné.
-- Evidencias: dos capturas reales (`evidencias/evidencia_1_mysql.png`, `evidencias/evidencia_2_mysql.png`).
-- Se confirmó visualmente que `tecnoayuda_entrega` contiene 15 tablas y que una consulta devuelve 10 filas. Aún no se aportan capturas de cada una de las métricas.
-- No se ha publicado este proyecto en GitHub.
+No se han generado imágenes falsas ni se declara que las consultas pendientes se hayan ejecutado en la computadora del estudiante.
